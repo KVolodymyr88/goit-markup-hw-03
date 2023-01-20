@@ -1,0 +1,58 @@
+:root{
+--primary-text-color:#2E2F42;
+--title-text-color:#434455;
+--accent-color:#404BBF;
+
+
+}
+
+body {
+    color: 434455;
+    background-color: #fff;
+}
+.list {
+    list-style: none;
+}
+/*колір основного тексту NAVY BLUE  #2E2F42*/
+/*другорядний текст SLATE #434455*/
+/*білий #FFFFFF*/
+/*акцент #404BBF;*/
+/*посилання IRIS #4D5AE5;*/
+/*контейнер посилання #E7E9FC*/
+/* CLOUD #F4F4FD;*/
+
+.logo{
+    #4D5AE5;
+}
+
+/* site nav */
+.site-nav .link {
+    color:var(--primary-text-color)
+}
+.site-nav .link:hover,
+.site-nav .link:focus{
+    color:var(--accent-color)
+}
+/* hero */
+.hero{
+    
+}
+.hero-title{
+    color: #FFFFFF;
+}
+
+/* section */
+.section{
+    color: var(--primary-text-color)
+}
+.section-name{
+
+}
+.section-title{
+    color:var(--title-text-color)
+}
+.feature-text{
+    color: var(--title-text-color)
+}
+/* feature */
+
