@@ -2,13 +2,17 @@
 --primary-text-color:#2E2F42;
 --title-text-color:#434455;
 --accent-color:#404BBF;
+--background-color: #fff;
+--button-color: #4D5AE5;
+--button-secondary:#E7E9FC;
+--footer-text: #E7E9FC;
 
 
 }
 
 body {
-    color: 434455;
-    background-color: #fff;
+    color: var(--title-text-color)
+    background-color: var(--background-color)
 }
 .list {
     list-style: none;
@@ -22,17 +26,30 @@ body {
 /* CLOUD #F4F4FD;*/
 
 .logo{
-    #4D5AE5;
+   color: #4D5AE5;
 }
 
 /* site nav */
 .site-nav .link {
     color:var(--primary-text-color)
 }
-.site-nav .link:hover,
+.site-nav .link:hover, 
 .site-nav .link:focus{
     color:var(--accent-color)
 }
+.site-nav .link.current {
+    color: var(--button-color);
+}
+.auth-nav .link{
+    color: var(--title-text-color);
+}
+/* адреса */
+.auth-nav .link:hover,
+.auth-nav .link:focus{
+    color: var(--accent-color);
+}
+
+
 /* hero */
 .hero{
     
@@ -42,17 +59,41 @@ body {
 }
 
 /* section */
-.section{
-    color: var(--primary-text-color)
-}
-.section-name{
 
-}
+
 .section-title{
-    color:var(--title-text-color)
+    color:var(--primary-text-color)
 }
-.feature-text{
-    color: var(--title-text-color)
-}
-/* feature */
 
+/* feature */
+.feature-list .title{
+color: var(--primary-text-color);
+}
+
+/* examples */
+
+.team .title {
+    color: var(--primary-text-color);
+}
+
+/* button */
+.button {
+    
+}
+.button.primary{
+    color: var(--background-color);
+    background-color: var(--button-color);
+}
+
+/* portfolio */
+
+.button.secondary{
+    color: var(--button-color);
+    background-color: var(--button-secondary);
+}
+.products .title {
+    color: var(--primary-text-color);
+}
+.footer .title{
+    color: var(--footer-text)
+}
