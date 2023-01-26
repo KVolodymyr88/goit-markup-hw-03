@@ -10,37 +10,21 @@
 --logo-footer-studio:#F4F4FD;
 --wite-color-text:#fff;
 --background-team:#F4F4FD;
-
-
-
-
 }
 
 body {
     color: var(--title-text-color);
     background-color: var(--background-color);
-
     font-family: roboto, sans-serif; 
 }
 a {
     outline:none;
     text-decoration: none;
 }
-
-
 .list {
     list-style: none;
 }
-/*колір основного тексту NAVY BLUE  #2E2F42*/
-/*другорядний текст SLATE #434455*/
-/*білий #FFFFFF*/
-/*акцент #404BBF;*/
-/*посилання IRIS #4D5AE5;*/
-/*контейнер посилання #E7E9FC*/
-/* CLOUD #F4F4FD;*/
-
 /* logo-header */
-
 .logo-header{
     text-transform: uppercase; cursive;
     font-weight: 800;
@@ -51,8 +35,7 @@ a {
     color: var(--logo-web);
 }
 
-/* logo-footer */
-
+/* ___________________________________________logo-footer */
 .logo-footer{
     text-transform: uppercase; cursive;
     font-weight: 800;
@@ -66,8 +49,7 @@ a {
     color: var(--logo-footer-studio);
 }
 
-
-/* site nav */
+/*____________________________________________ site nav */
 .site-nav .link {
     color:var(--primary-text-color)
 }
@@ -87,7 +69,7 @@ a {
 .auth-nav .link{
     color: var(--title-text-color);
 }
-/* address */
+/*____________________________________________ address */
 .auth-nav{
     font-style: normal;
     font-weight: 400;
@@ -99,8 +81,7 @@ a {
     color: var(--accent-color);
 }
 
-
-/* hero */
+/*____________________________________________ hero */
 .hero{
     background: #2E2F42;
     
@@ -114,7 +95,7 @@ a {
         line-height: 1.07;
 }
 
-/* section */
+/*____________________________________________ section-specifics */
 
 .section-specifics{
     background: var(--background-color);
@@ -128,7 +109,7 @@ a {
     text-transform: capitalize
 }
 
-/* feature */
+/* ____________________________________________feature */
 .feature-list .title{
 color: var(--primary-text-color);
 }
@@ -148,7 +129,7 @@ color: var(--primary-text-color);
 }
 
 
-/* examples */
+/* ____________________________________________examples */
 
 
 .section-team{
@@ -158,27 +139,39 @@ color: var(--primary-text-color);
     color: var(--primary-text-color);
 }
 
-/* button */
-.button {
-    font-family: inherit
+/* ____________________________________________button */
+.button,
+.button:hover,
+.button:focus {
+    font-family: inherit;
+    transition-duration: 0.4s;
+    border-radius: 4px;
 }
 .button.primary{
     color: var(--wite-color-text);
     background-color: var(--button-color);
-    
+}
+.button.primary:hover,
+.button.primary:focus {
+    background-color: var(--accent-color);
+    color: var(--wite-color-text);
 }
 
-/* footer */
+/* ____________________________________________footer */
 .footer{
     background-color: var(--primary-text-color)
 }
 
-/* portfolio */
+/* ____________________________________________portfolio_____________ */
 
 .button.secondary{
     color: var(--button-color);
     background-color: var(--button-secondary);
-    
+}
+.button.secondary:hover,
+.button.secondary:focus {
+    background-color: var(--accent-color);
+    color:var(--wite-color-text)
 }
 .products .title {
     color: var(--primary-text-color);
@@ -187,7 +180,7 @@ color: var(--primary-text-color);
     color: var(--footer-text)
 }
 
-/* hidden */
+/* ____________________________________________hidden */
 .visually-hidden {
     position: absolute;
     white-space: nowrap;
@@ -200,3 +193,11 @@ color: var(--primary-text-color);
     clip-path: inset(50%);
     margin: -1px;
 }
+/* -____________________________________________photo*/
+.section-btn{
+    background-color: var(--background-color);
+}
+.section-photo{
+    background-color: var(--background-color);
+}   
+
