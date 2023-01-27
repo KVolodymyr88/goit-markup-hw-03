@@ -28,7 +28,7 @@ a {
 .logo-header{
     color: var(--primary-text-color);
     text-transform: uppercase;
-    font-family: raleway, arial;
+    font-family: raleway, sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.33;
@@ -40,7 +40,7 @@ a {
 /* ___________________________________________logo-footer */
 .logo-footer{
     text-transform: uppercase;
-    font-family: raleway, arial;
+    font-family: raleway, sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.33;
@@ -177,9 +177,26 @@ color: var(--primary-text-color);
     color:var(--wite-color-text)
     
 }
-.products .title {
-    color: var(--primary-text-color);
+.products{
+    
 }
+.products-title{
+    color: var(--primary-text-color);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    font-family: roboto, sans-serif;
+}
+.products-text {
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--primary-text-color);
+    font-family: roboto, sans-serif;
+}
+
+
+
+
 .footer .title{
     color: var(--footer-text)
 }
