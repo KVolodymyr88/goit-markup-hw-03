@@ -5,6 +5,7 @@
 --background-color: #fff;
 --button-color: #4D5AE5;
 --button-secondary:#E7E9FC;
+--button-secondary-border:#E7E9FC;
 --footer-text: #E7E9FC;
 --logo-web:#4D5AE5;
 --logo-footer-studio:#F4F4FD;
@@ -83,7 +84,10 @@ a {
 
 /*____________________________________________ hero */
 .hero{
-    background: var(--primary-text-color)
+    background: var(--primary-text-color);
+    text-align: center;
+    
+    
     
 }
 .hero-title{
@@ -91,17 +95,21 @@ a {
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
+    margin-bottom: 48px;
 }
 
 /*____________________________________________ section-specifics */
 
 .section-specifics{
-   
+   padding-top: 120px;
+   padding-bottom: 120px;
 }
 .section-title{
     color:var(--primary-text-color);
     font-size: 36px;
     line-height: 1.11;
+    padding-bottom: 72px;
+    
 }
 .transform{
     text-transform: capitalize
@@ -115,6 +123,7 @@ color: var(--primary-text-color);
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+    margin-bottom: 8px;
 }
 .feature-text{
     font-size: 16px;
@@ -123,6 +132,7 @@ color: var(--primary-text-color);
 
 /* section-doing */
 .section-doing{
+    padding-bottom: 120px;
     
 }
 
@@ -132,12 +142,18 @@ color: var(--primary-text-color);
 
 .section-team{
     background-color: var(--background-team);
+    padding-bottom: 120px;
+    padding-top: 120px;
 }
 .team .title {
     color: var(--primary-text-color);
+    
 }
-
-/* ____________________________________________button */
+/* ____________________________________________footer */
+.footer {
+    background-color: var(--primary-text-color)
+}
+/* ____________________________________________________________button */
 .button,
 .button:hover,
 .button:focus {
@@ -146,22 +162,23 @@ color: var(--primary-text-color);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
+    border-radius: 4px;
+    border: 1px solid transparent;
+    text-align: center;
     
     
 }
 .button.primary{
     color: var(--wite-color-text);
     background-color: var(--button-color);
+    padding: 16px 32px;
+    min-width: 169px;
 }
 .button.primary:hover,
 .button.primary:focus {
     background-color: var(--accent-color);
     color: var(--wite-color-text);
-}
-
-/* ____________________________________________footer */
-.footer{
-    background-color: var(--primary-text-color)
+    min-width: 126px;
 }
 
 /* ____________________________________________portfolio_____________ */
@@ -169,7 +186,8 @@ color: var(--primary-text-color);
 .button.secondary{
     color: var(--button-color);
     background-color: var(--button-secondary);
-    border: none;
+    border-color: var(--button-secondary-border);
+    padding: 12px 24px;
 }
 .button.secondary:hover,
 .button.secondary:focus {
@@ -186,6 +204,7 @@ color: var(--primary-text-color);
     font-size: 20px;
     line-height: 1.2;
     font-family: roboto, sans-serif;
+    margin-bottom: 8px;
 }
 .products-text {
     font-size: 16px;
@@ -198,7 +217,10 @@ color: var(--primary-text-color);
 
 
 .footer .title{
-    color: var(--footer-text)
+    color: var(--footer-text);
+}
+.footer{
+    padding: 100px 1020px 100px 156px;
 }
 
 /* ____________________________________________hidden */
@@ -219,6 +241,56 @@ color: var(--primary-text-color);
     
 }
 .section-photo{
+    padding-bottom: 120px;
     
 }   
+/* _____________________________________________________________3 */
 
+.container{
+    width: 1158px;
+    padding-left: auto;
+    padding-right: auto;
+    
+
+
+    outline: 2px solid tomato;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    margin: 0;
+}
+.centered{
+    text-align: center;
+}
+.no-padding{
+    padding-bottom: 0;
+    padding-top: 0;
+}
+.team> .item{
+    padding-bottom: 32px;
+    background-color: var(--wite-color-text)
+}
+.team-jpg{
+    margin-bottom: 0;
+}
+img{
+    display: inline-block;
+    margin-bottom: 32px;
+}
+
+/* _________________________________________________________________ */
+.portfolio-header{
+    margin-bottom: 96px;
+}
+.button-btn{
+    margin-bottom: 72px;
+}
