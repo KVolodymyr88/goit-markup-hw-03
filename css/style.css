@@ -114,6 +114,7 @@ a {
     background: var(--primary-text-color);
     justify-content: center;
     padding: 188px 472px 292px 472px; 
+    margin-bottom: 120px;
     
 }
 .hero-title{
@@ -138,7 +139,7 @@ a {
 /*____________________________________________ section-specifics */
 
 .section-specifics{
-    padding-top: 120px;
+   
     padding-bottom: 120px;
 }
 .specifics-container{
@@ -271,10 +272,12 @@ color: var(--primary-text-color);}
     background-color: var(--accent-color);
     color:var(--wite-color-text)
     /* ============================================================= */
+
 }
 .products{
     display: flex;
     flex-wrap:wrap;
+    row-gap: 48px;
     
 }
 .products-item{
@@ -284,12 +287,13 @@ color: var(--primary-text-color);}
 }
 .products-list{
     padding-top: 32px;
-        padding-bottom: 32px;
-        margin-bottom: 120px;
-        min-width: 360px;
-        min-height: 120px;
-        border: 1px solid var(--button-secondary);
-        width: calc((100%-72) / 4);
+    padding-bottom: 32px;
+        /* margin-bottom: 120px; */
+    min-width: 360px;
+    min-height: 120px;
+    border: 1px solid var(--button-secondary);
+    width: calc((100%-72) / 4);
+    
     }
 .products-title{
     color: var(--primary-text-color);
@@ -342,7 +346,7 @@ color: var(--primary-text-color);}
     
 }
 .section-photo{
-    /* padding-bottom: 120px; */
+    padding-bottom: 120px;
     
 }   
 /* _____________________________________________________________3 */
@@ -379,6 +383,7 @@ h6{
 .no-padding{
     padding-bottom: 0;
     padding-top: 0;
+    
 }
 
 
